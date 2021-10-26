@@ -1,0 +1,172 @@
+/* General Stylings */
+* {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+p, li{
+  color: #272829a4;
+  margin-top: 5px;
+}
+
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  color: #272829;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+/*Mobile View*/
+#project-overview {
+  display: block;
+}
+
+img {
+  width: 100%;
+   
+}
+
+.project-description {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.project-description h1 {
+  font-size: 32px;
+  padding: 1.5rem 0;
+}
+
+.project-description p {
+  margin-top: 0px;
+}
+
+.img-p{
+  margin-bottom: 5rem;
+ 
+ 
+}
+
+.img-p p{
+ color: #5f2905b7;
+  text-align: center;
+  font-size: 18px;
+}
+
+.img-box{
+  text-align: center;
+  
+    
+   justify-content: center;
+}
+
+.img-box img{
+   
+
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+  0 2px 2px rgba(0,0,0,0.11), 
+  0 4px 4px rgba(0,0,0,0.11), 
+  0 8px 8px rgba(0,0,0,0.11), 
+  0 16px 16px rgba(0,0,0,0.11), 
+  0 32px 32px rgba(0,0,0,0.11);
+}
+
+section:nth-child(even) {
+  /* background: rgba(76, 169, 245, 0.3); */
+  /* background: #979aa05d; */
+  /* background: #bcbdc02f; */
+  background: rgba(187, 186, 186, 0.226);
+  /* background: linear-gradient(180deg, rgba(187, 186, 186, 0.226) 50%, rgba(211, 210, 210, 0.625) 52%, rgba(187, 186, 186, 0.226) 100%); */
+}
+
+.fact-container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 600px;
+  /* border: 1px black solid; */
+  border-radius: 2%;
+  box-shadow: 0 0 2px rgba(80, 79, 79, 0.432);
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.facts {
+  /* border: 1px rgb(209, 8, 8) solid; */
+  padding: 2rem 0 0.5rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.duration {
+  padding-bottom: 2.5rem;
+}
+
+.fact h3 {
+  padding: 0;
+}
+ 
+
+/* for tablets - medium screens
+@media screen and (min-width: 768px) {
+  section:nth-child(odd) {
+    background: red;
+  }
+
+  p {
+    color: brown;
+  }
+} */
+
+/* for laptops and above large screens */
+@media screen and (min-width: 900px) {
+  /* section:nth-child(odd) {
+    background: rgb(4, 235, 43);
+  } */
+
+  section {
+    padding: 2rem 10rem;
+  }
+
+  #project-overview {
+    display: flex;
+  }
+
+  .project-description {
+    order: -1;
+    text-align: left;
+      padding-right: 1rem;  
+    /* border: black 1px solid; */
+  }
+
+  .img-box {
+    display: flex;
+    margin: 1rem auto;
+    width: 80%;
+    /* border: black 5px solid; */
+  }
+}
+
+/* .portfolio-details .portfolio-details-slider img {
+  width: 100%;
+} */
+
